@@ -6,13 +6,14 @@
 
 .game {
     width: 495px;
-    height: 200px;
+    height: 220px;
     border: 1px white;
     border-radius: 20px;
     margin: auto;
 }
 
 #main {
+    overflow: hidden;
     background-color: black;
     width: 505px;
     height: 220px;
