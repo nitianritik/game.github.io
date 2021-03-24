@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.game {
+    width: 495px;
+    height: 200px;
+    border: 1px white;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#main {
+    background-color: black;
+    width: 505px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#character {
+    width: 22px;
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+    top: 150px;
+}
+
+.animate {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+        /* border-radius: 20px; */
+        background-color: yellow;
+        border-radius: 20px;
+        background-position-y: 300px;
+        transition: none;
+        /* padding-bottom: 50px; */
+    }
+    30% {
+        /* top: 10px; */
+        /* border-radius: 20px; */
+        /* background-color: yellow; */
+        /* background-blend-mode: lighten; */
+        /* background-color: yellow; */
+        /* background-position-y: 300px; */
+        /* padding-bottom: 10px; */
+    }
+    50% {
+        top: 10px;
+        /* border-radius: 20px; */
+        /* background-color: yellow; */
+        /* background-blend-mode: lighten; */
+        /* background-color: yellow; */
+        background-position-y: 300px;
+        transition: none;
+        /* padding-bottom: 10px; */
+    }
+    70% {
+        top: 100px;
+        border-radius: 20px;
+        /* background-color: yellow; */
+        background-blend-mode: lighten;
+        background-position-y: 120px;
+        background-clip: padding-box;
+        transition: none;
+    }
+    100% {
+        top: 150px;
+        background-color: transparent;
+    }
+}
+
+.block {
+    /* background-color: blue; */
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 90px;
+    left: 500px;
+    animation: block 1.2s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 500px
+    }
+    100% {
+        left: -20px
+    }
+}
+
+p {
+    text-align: center;
+}
