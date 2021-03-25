@@ -15,6 +15,9 @@ var checkDead = setInterval(function() {
     if (blockLeft < 20 && blockLeft > -20 && characterTop >= 130) {
         block.style.animation = "none";
         alert("Game Over. score: " + Math.floor(counter / 100));
+        setTimeout(() => { console.log("World!"); }, 2000);
+
+        // window.location.reload();
         counter = 0;
         block.style.animation = "block 1s infinite linear";
     } else {
