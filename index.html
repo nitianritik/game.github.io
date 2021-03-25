@@ -14,7 +14,7 @@
             display: inline-flex;
             border: solid 1px white;
             border-radius: 5px;
-            background-color: yellow;
+            background-color: BLACK;
             /* background-image: url("https://lh3.googleusercontent.com/-UmKnovbt_bc/YFtFH0tqDkI/AAAAAAAAEs4/7ar4Y6hJAios39gJ0Ap6P5iwjHi1ViHwwCLcBGAsYHQ/image.png "); */
             background-repeat: no-repeat;
             background-size: cover;
@@ -31,6 +31,60 @@
             border: black solid 1px7;
             border-radius: 10px;
         }
+        
+        .button1 {
+            /* float: right;  width =21 */
+            display: inline;
+            margin-left: 7%;
+            /* left: 8%; */
+            width: 8%;
+            height: 5%;
+            margin-right: 7%;
+            /* margin: 8%; */
+            border: black solid 1px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        tablink {
+            background-color: #555;
+            color: white;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            font-size: 17px;
+            width: 25%;
+        }
+        
+        .tablink:hover {
+            background-color: #777;
+        }
+        /* Style the tab content (and add height:100% for full page content) */
+        
+        .tabcontent {
+            color: white;
+            display: none;
+            padding: 100px 20px;
+            height: 100%;
+        }
+        
+        #Home {
+            background-color: red;
+        }
+        
+        #News {
+            background-color: green;
+        }
+        
+        #Contact {
+            background-color: blue;
+        }
+        
+        #About {
+            background-color: orange;
+        }
     </style>
 
 
@@ -38,90 +92,161 @@
 
 
 <header>
-    <h5>My games</h5>
+    <i> <H3 style=" font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; color:deeppink">GAME ZONE</H3></i>
 </header>
 
 
 <body style=" background: transparent; width: 100%; ">
 
 
-    <!-- <iframe style=" border: none; overflow: hidden; width: 530px; height: 230px; " src="game.html "> </iframe> -->
+
+    <BR>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
 
 
+    <BR>
     <!-- <main> -->
+    <section id="game_line_01">
+
+        <div style=" align-self: center; " class="=gameline1 ">
+            <div style=" background-image: url(https://lh3.googleusercontent.com/-UmKnovbt_bc/YFtFH0tqDkI/AAAAAAAAEs4/7ar4Y6hJAios39gJ0Ap6P5iwjHi1ViHwwCLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+            <div style="  background-image: url(https://lh3.googleusercontent.com/-I1Obs7v5YYQ/YFtLWsD5FFI/AAAAAAAAEtA/SZvjEXKyIXYD-MKviLo3e0fRonVBnaiUACLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+            <div style="background-image: url(https://lh3.googleusercontent.com/-beTMlLQvzbI/YFtqoRLG8uI/AAAAAAAAEtY/3EbJeoXmkQcWZphBL83UzeHRVCCOK55eACLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+            <div style=" background-image: url(https://lh3.googleusercontent.com/-w26gBPZiy6I/YFttqrSoc-I/AAAAAAAAEtg/r2p4P0krJlwDLTj24fx5L2LkIPYQNZOyACLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+        </div>
+
+        <br>
+        <div style="margin: none;">
+
+            <button onclick="openCity(event, 'London')" class="button1 " name="play "> PLAY </button>
+
+            <!-- <button onclick="window.location.href='https://nitianritik.github.io/game.github.io/game'" class="button1 " name="play "> PLAY </button> -->
 
 
-    <div style=" align-self: center; " class="=gameline1 ">
-        <div style=" background-image: url(https://lh3.googleusercontent.com/-UmKnovbt_bc/YFtFH0tqDkI/AAAAAAAAEs4/7ar4Y6hJAios39gJ0Ap6P5iwjHi1ViHwwCLcBGAsYHQ/image.png); " class="game " id="game1 "> <button onclick="window.location.href='https://nitianritik.github.io/game.github.io/game'" class="button " name="play "> PLAY </button> </div>
+            <button onclick="window.location.href='https://jaredianmills.github.io/Space-Shooter-browser-game/'" class="button1 " name="play "> PLAY </button>
 
-        <div style="  background-image: url(https://lh3.googleusercontent.com/-I1Obs7v5YYQ/YFtLWsD5FFI/AAAAAAAAEtA/SZvjEXKyIXYD-MKviLo3e0fRonVBnaiUACLcBGAsYHQ/image.png); " class="game " id="game1 "> <button onclick="window.location.href='https://jaredianmills.github.io/Space-Shooter-browser-game/'" class="button " name="play "> PLAY </button> </div>
+            <button onclick="window.location.href='https://jlgm.github.io/Space-Invaders/'" class="button1 " name="play "> PLAY </button>
+            <button onclick="window.location.href='https://rabiroshan.github.io/snake_game/'" class="button1 " name="play "> PLAY </button>
 
-        <div style="background-image: url(https://lh3.googleusercontent.com/-beTMlLQvzbI/YFtqoRLG8uI/AAAAAAAAEtY/3EbJeoXmkQcWZphBL83UzeHRVCCOK55eACLcBGAsYHQ/image.png); " class="game " id="game1 "> <button onclick="window.location.href='https://jlgm.github.io/Space-Invaders/'" class="button " style=" position: relative; float: right; margin: 1%; left: 48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
+        </div>
+
+    </section>
+
+
+
+
+    <br>
+
+
+    <section id="game_line_02">
+
+        <div style=" align-self: center; " class="=gameline1 ">
+            <div style=" background-image: url(https://lh3.googleusercontent.com/-KN_3INQm64U/YFyXnFOi5gI/AAAAAAAAEto/2Wd_5HOLg8YcpDXdWfvt4rI4h_Qtt40owCLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+            <div style="  background-image: url(https://lh3.googleusercontent.com/-k7Phdo6utEM/YFy6C1iFuwI/AAAAAAAAEtw/1fGbnecpS8EDWnhrCpUd0oVBP4jjLougwCLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+            <div style="background-image: url(https://lh3.googleusercontent.com/-nyIKRxMFV_Q/YFy-3QNGVoI/AAAAAAAAEt4/v1k4sFizpuIE623zXBeANupo_I5ieUWlwCLcBGAsYHQ/image.png); " class="game " id="game1 ">
+                </button>
+            </div>
+
+            <div style=" background-image: url(); " class="game " id="game1 ">
+                </button>
+            </div>
+        </div>
+
+        <br>
+
+
+        <div style="margin: none;">
+
+            <button onclick="window.location.href='http://martindrapeau.github.io/backbone-game-engine/super-mario-bros/index.html'" class="button1 " name="play "> PLAY </button>
+
+            <button onclick="window.location.href='http://philvargas.github.io/js_game_of_afterlife/'" class="button1 " name="play "> PLAY </button>
+
+            <button onclick="window.location.href='https://lettier.github.io/emoji-bingo/'" class="button1 " name="play "> PLAY </button>
+            <button onclick="window.location.href=''" class="button1 " name="play "> PLAY </button>
+
+        </div>
+
+
+        <br>
+
+    </section>
+
+    <button style="margin-right: 40%; margin-left: 40%;" onclick="openCity(event, 'ENDGAME')" class="button1 " name="play "> PLAY </button>
+
+
+
+    <div id="ENDGAME" class="tabcontent">
+        <!-- <h3>Paris</h3>
+        <p>Paris is the capital of France.</p> -->
+    </div>
+    D
+
+
+    <div id="London" class="tabcontent">
+        <!-- <h3>London</h3>
+        <p>London is the capital city of England.</p> -->
+        <iframe style=" border: none; overflow: hidden; width: 530px; height: 230px; " src="https://nitianritik.github.io/game.github.io/game "> </iframe>
+
     </div>
 
 
-    <div style=" align-self: center; " class="=gameline1 ">
-        <div style=" background-image: url(https://lh3.googleusercontent.com/-w26gBPZiy6I/YFttqrSoc-I/AAAAAAAAEtg/r2p4P0krJlwDLTj24fx5L2LkIPYQNZOyACLcBGAsYHQ/image.png); " class="game " id="game1 "> <button onclick="window.location.href='https://rabiroshan.github.io/snake_game/'" class="button " name="play "> PLAY </button> </div>
 
-        <div style="  background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
+    <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
 
-        <div style="background-image: url(); " class="game " id="game1 "> <button class="button " style=" position: relative; float: right; margin: 1%; left: 48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
+    <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
     </div>
 
 
-    <div style=" align-self: center; " class="=gameline1 ">
-        <div style=" background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
-
-        <div style="  background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
-
-        <div style="background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " style=" position: relative; float: right; margin: 1%; left: 48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
-    </div>
-
-    <div style=" align-self: center; " class="=gameline1 ">
-        <div style=" background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
-
-        <div style="  background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
-
-        <div style="background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " style=" position: relative; float: right; margin: 1%; left: 48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
-    </div>
-
-    <div style=" align-self: center; " class="=gameline1 ">
-        <div style=" background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
-
-        <div style="  background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " name="play "> PLAY </button> </div>
-
-        <div style="background-image: url(); " class="game " id="game1 "> <button onclick="window.location.href=''" class="button " style=" position: relative; float: right; margin: 1%; left: 48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
-    </div>
-
-
-
-
-    <!-- <div style=" align-self: center; " class="=gameline1 ">
-        <div style="background-image: url(); " class="name " id="game1 "> <button class="button " style=" position: relative; float: right; margin: 1%; left:       48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
-
-        <div style="background-image: url(https://lh3.googleusercontent.com/-I1Obs7v5YYQ/YFtLWsD5FFI/AAAAAAAAEtA/SZvjEXKyIXYD-MKviLo3e0fRonVBnaiUACLcBGAsYHQ/image.png); " class="game " id="game1 "> <button class="button "   name="play "> PLAY </button> </div>
-
-        <div style="background-image: url(); " class="game " id="game1 "> <button class="button " style=" position: relative; float: right; margin: 1%; left: 48%; width: 50%; height: 50%; " name="play "> PLAY </button> </div>
-    </div> -->
-
-
-    <!-- <div class="game " id="game1 "></div>
-
-    <div class="game " id="game1 "></div>
-
-
-    <div class="game " id="game1 "></div> -->
-    <p>i am here</p>
+    <p> </p>
 
 
 
 
 
 
-    <!-- </main> -->
-
-
-    <!-- <div data-include="game.html "></div> -->
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
 
 </body>
 
