@@ -1,6 +1,9 @@
 <html style="  background-attachment:fixed;  background-size:cover; background-image:url(https://lh3.googleusercontent.com/-OEmyyjyXato/YFtQ6rUH7DI/AAAAAAAAEtQ/I6c8QBtia5cwjrNV8XoV6NHMEXQZbLayACLcBGAsYHQ/s16000/image.png);">
 
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+
+
     <style>
         /* * {
             padding: 0;
@@ -9,16 +12,32 @@
         
         .game {
             width: 20%;
-            height: 10%;
+            height: 15%;
             /* position: relative; */
             display: inline-flex;
-            border: solid 1px white;
+            border: solid 1px violet;
             border-radius: 5px;
             background-color: BLACK;
             /* background-image: url("https://lh3.googleusercontent.com/-UmKnovbt_bc/YFtFH0tqDkI/AAAAAAAAEs4/7ar4Y6hJAios39gJ0Ap6P5iwjHi1ViHwwCLcBGAsYHQ/image.png "); */
             background-repeat: no-repeat;
             background-size: cover;
             margin: 1%;
+            box-shadow: black 2px 2px 5px 5px;
+        }
+        
+        .game:hover {
+            width: 20%;
+            height: 15%;
+            /* position: relative; */
+            display: inline-flex;
+            border: solid 1px violet;
+            border-radius: 5px;
+            background-color: BLACK;
+            /* background-image: url("https://lh3.googleusercontent.com/-UmKnovbt_bc/YFtFH0tqDkI/AAAAAAAAEs4/7ar4Y6hJAios39gJ0Ap6P5iwjHi1ViHwwCLcBGAsYHQ/image.png "); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 1%;
+            box-shadow: violet 2px 2px 5px 5px;
         }
         
         .button {
@@ -28,7 +47,7 @@
             left: 69%;
             width: 30%;
             height: 50%;
-            border: black solid 1px7;
+            border: violet solid 1px7;
             border-radius: 10px;
         }
         
@@ -36,6 +55,8 @@
             /* float: right;  width =21 */
             display: inline;
             margin-left: 7%;
+            transition: 200ms;
+            /* outline: deeppink 5px solid; */
             /* left: 8%; */
             width: 8%;
             height: 5%;
@@ -44,6 +65,61 @@
             border: black solid 1px;
             border-radius: 10px;
             text-align: center;
+            font-family: 'Kalam';
+            box-shadow: black 2px 2px 5px 5px;
+        }
+        
+        .button1:hover {
+            /* float: right;  width =21 */
+            display: inline;
+            margin-left: 7%;
+            transition: 200ms;
+            /* left: 8%; */
+            width: 8%;
+            height: 5%;
+            margin-right: 7%;
+            /* margin: 8%; */
+            border: violet solid 1px;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Kalam';
+            box-shadow: violet 2px 2px 2px 2px;
+        }
+        
+        .button1:active {
+            /* float: right;  width =21 */
+            display: inline;
+            margin-left: 7%;
+            transition: 500ms;
+            /* left: 8%; */
+            width: 8%;
+            height: 5%;
+            margin-right: 7%;
+            /* margin: 8%; */
+            border: red solid 1px;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Kalam';
+            outline: none;
+            box-shadow: red 2px 2px 2px 2px;
+        }
+        
+        .button1:focus {
+            /* float: right;  width =21 */
+            display: inline;
+            margin-left: 7%;
+            transition: 500ms;
+            /* left: 8%; */
+            width: 8%;
+            height: 5%;
+            margin-right: 7%;
+            /* margin: 8%; */
+            border: red solid 1px;
+            border-radius: 10px;
+            text-align: center;
+            font-family: 'Kalam';
+            outline: none;
+            box-shadow: red 2px 2px 2px 2px;
         }
         
         tablink {
@@ -143,7 +219,8 @@
 
 
 <header>
-    <i> <h1 class="gamezone1" style="  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; color:deeppink">GAME ZONE</p></h1>
+    <i> <h1 class="gamezone1" style="     -webkit-text-stroke: 5px red;
+        -webkit-text-fill-color: darkviolet;       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; font-size: 50px; ">GAME ZONE</p></h1>
 
 </header>
 
@@ -151,26 +228,12 @@
 <body style=" background: transparent; width: 100%; ">
 
 
-    <!-- <div class="block" style="position:absolute; color: cadetblue; font-size: 50px;" id="block">🐒</div> -->
-
-    <!-- <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-    </div> -->
-    <!-- <BR>
-    <BR>
-    <BR>
-    <BR>
-    <BR>
-    <BR>
-    <BR> -->
+   
         <div style="margin-left: 0%;">
     <i> <p class="gamezone" style="      margin-top: 3%;                    left: -50%;
-        margin-right: -30%;        position:relative; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; color:deeppink">🚞🚃🚃🚃🚃🚃🚃🚃🚃🚃</p></i>
+        margin-right: -30%;    font-size: 30px;    position:relative; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; ">🚞🚃🚃🚃🚃🚃🚃🚃🚃🚃  </p></i>
     </div>
-    <hR>
-
+    <hr>
 
     <BR>
     <!-- <main> -->
