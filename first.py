@@ -18,3 +18,12 @@ print("Hello Ritik")
 a='i  am here'
 print(type(a))
 print(a)
+
+# print() 
+
+# b=(int)"31"
+
+# print(b)
+
+
+
